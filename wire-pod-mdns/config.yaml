@@ -16,3 +16,4 @@ environment:
     value: "escapepod"
   - name: "SERVER_DOMAIN_NAME"
     value: "local"
+restart: unless-stopped
