@@ -20,5 +20,6 @@ map:
   - type: config
     path: /vosk
     read_only: false
-image: "ghcr.io/kercre123/wire-pod:main"
+image: "ghcr.io/kercre123/wire-pod"
+version: "main"
 restart: unless-stopped
