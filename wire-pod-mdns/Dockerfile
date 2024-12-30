@@ -11,4 +11,4 @@ COPY avahi-daemon.conf /etc/avahi/avahi-daemon.conf
 EXPOSE 5353/udp
 
 # Start the Avahi daemon in the foreground
-CMD ["avahi-daemon", "--daemonize=no"]
+CMD ["avahi-daemon", "--foreground"]

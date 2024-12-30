@@ -1,6 +1,6 @@
 name: "Wire Pod mDNS"
 description: "The Multicast DNS (mDNS) service for Wire Pod"
-version: "0.1.4"
+version: "0.1.5"
 slug: "wire-pod-mdns"
 url: "https://github.com/CB-42458/Wire-Pod-Home-Assistant-Add-On"
 arch:
