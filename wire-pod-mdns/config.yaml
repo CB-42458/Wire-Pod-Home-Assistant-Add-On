@@ -12,8 +12,6 @@ init: false
 image: "flungo/avahi"
 version: "main"
 environment:
-  - name: "SERVER_HOST_NAME"
-    value: "escapepod"
-  - name: "SERVER_DOMAIN_NAME"
-    value: "local"
+  SERVER_HOST_NAME: "escapepod"
+  SERVER_DOMAIN_NAME: "local"
 restart: unless-stopped
