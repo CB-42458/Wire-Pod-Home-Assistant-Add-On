@@ -9,7 +9,7 @@ arch:
   - armv7
 host_network: true
 init: false
-image: "ghcr.io/kercre123/wire-pod-mdns"
+image: "flungo/avahi"
 version: "latest"
 enviroment:
   - name: "SERVER_HOST_NAME"
