@@ -10,5 +10,5 @@ COPY avahi-daemon.conf /etc/avahi/avahi-daemon.conf
 # Expose the mDNS port
 EXPOSE 5353/udp
 
-# Start the Avahi daemon
-CMD ["avahi-daemon", "--no-drop-root", "--debug", "--no-terminate"]
+# Start the Avahi daemon in the foreground
+CMD ["avahi-daemon", "--daemonize=no"]
