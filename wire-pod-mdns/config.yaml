@@ -11,7 +11,7 @@ host_network: true
 init: false
 image: "flungo/avahi"
 version: "latest"
-enviroment:
+environment:
   - name: "SERVER_HOST_NAME"
     value: "escapepod"
   - name: "SERVER_DOMAIN_NAME"
