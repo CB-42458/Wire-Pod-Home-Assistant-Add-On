@@ -11,4 +11,4 @@ COPY avahi-daemon.conf /etc/avahi/avahi-daemon.conf
 EXPOSE 5353/udp
 
 # Start the Avahi daemon
-CMD ["avahi-daemon", "--no-drop-root", "--daemonize"]
+CMD ["avahi-daemon", "--no-drop-root", "--debug", "--no-terminate"]
