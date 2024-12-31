@@ -1,6 +1,5 @@
 name: "Wire Pod"
 description: "Wire Pod software in a Home Assistant Add-On"
-version: "0.1.0"
 slug: "wire-pod"
 url: "https://github.com/CB-42458/Wire-Pod-Home-Assistant-Add-On"
 arch:
@@ -14,10 +13,10 @@ ports:
   80/tcp: 80
   8084/tcp: 8084
 map:
-  - type: config
+  - type: data
     path: /chipper
     read_only: false
-  - type: config
+  - type: data
     path: /vosk
     read_only: false
 image: "ghcr.io/kercre123/wire-pod"
