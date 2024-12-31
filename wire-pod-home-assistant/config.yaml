@@ -1,6 +1,6 @@
 name: "Wire Pod"
 description: "Wire Pod software in a Home Assistant Add-On"
-version: "0.1.12"
+version: "0.1.13"
 slug: "wire-pod"
 url: "https://github.com/CB-42458/Wire-Pod-Home-Assistant-Add-On"
 arch:

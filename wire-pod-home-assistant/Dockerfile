@@ -16,4 +16,4 @@ RUN [ -d /vosk ] && cp -r /vosk/* /data/vosk/ && rm -rf /vosk || echo "/vosk doe
 RUN ln -s /data/chipper /chipper && ln -s /data/vosk /vosk
 
 # Start the application (replace with the actual command to start your application)
-CMD ["/bin/sh", "-c", "./chipper/start.sh"]
+CMD ["/bin/sh", "-c", "/chipper/start.sh"]
