@@ -13,11 +13,4 @@ ports:
   8080/tcp: 8080
   80/tcp: 80
   8084/tcp: 8084
-map:
-  - type: data
-    path: /chipper
-  - type: data
-    path: /vosk
-image: "ghcr.io/kercre123/wire-pod"
-version: "main"
 restart: unless-stopped
